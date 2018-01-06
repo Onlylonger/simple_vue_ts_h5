@@ -1,3 +1,9 @@
 {
-  "extends": "tslint:recommended"
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "single"],
+    "semicolon": [true, "never"],
+    "member-access": [true, "no-public"],
+    "ordered-imports": false
+  }
 }
