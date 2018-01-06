@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "esnext",
     "target": "es5",
     "moduleResolution": "node",
     "baseUrl": "./",
     "experimentalDecorators": true,
+    "lib": [
+      "es2015"
+    ],
     "paths": {
       "components": [
         "./src/components"

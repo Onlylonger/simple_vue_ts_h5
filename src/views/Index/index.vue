@@ -1,7 +1,7 @@
 <!--  -->
 <template>
-  <div class="demo">
-    demo
+  <div class="index">
+    index
   </div>
 </template>
 <script lang="ts" src="./template.ts"></script>

@@ -6,8 +6,10 @@ Vue.use(Router)
 const router = new Router({
   routes: [
     {
-      path: 'index',
-      // component
+      path: '/demo',
+      component: () => import('views/Index/index.vue'),
     },
   ],
 })
+
+export default router
