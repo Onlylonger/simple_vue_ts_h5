@@ -2,7 +2,24 @@
   "name": "simple_vue_ts_h5",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.base.conf.js --open --hot"
+  },
   "repository": "git@github.com:Onlylonger/simple_vue_ts_h5.git",
   "author": "王世隆 <547463736@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.8",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "vue-loader": "^13.6.2",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
 }

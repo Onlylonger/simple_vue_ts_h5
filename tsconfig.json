@@ -1,6 +1,25 @@
 {
   "compilerOptions": {
     "module": "es6",
-    "target": "es5"
+    "target": "es5",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "components": [
+        "./src/components"
+      ],
+      "assets": [
+        "./src/assets"
+      ],
+      "router": [
+        "./src/router"
+      ],
+      "styles": [
+        "./src/styles"
+      ],
+      "views": [
+        "./src/views"
+      ],
+    }
   }
 }
