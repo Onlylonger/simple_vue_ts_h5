@@ -1,8 +1,8 @@
 <!--  -->
 <template>
   <div class="app">
+    <div id="game"></div>
     <router-view></router-view>
-    demo{{count}}
   </div>
 </template>
 <script lang="ts" src="./template.ts"></script>

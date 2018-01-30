@@ -9,6 +9,7 @@
   "author": "王世隆 <547463736@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/three": "^0.89.3",
     "css-loader": "^0.28.8",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
@@ -24,6 +25,9 @@
     "yargs": "^10.0.3"
   },
   "dependencies": {
+    "@types/gsap": "^1.19.1",
+    "gsap": "^1.20.3",
+    "three": "^0.89.0",
     "vue": "^2.5.13",
     "vue-property-decorator": "^6.0.0",
     "vue-router": "^3.0.1"

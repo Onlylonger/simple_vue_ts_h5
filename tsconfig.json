@@ -5,25 +5,13 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "experimentalDecorators": true,
-    "lib": [
-      "es2015"
-    ],
+    "lib": ["es2015", "dom"],
     "paths": {
-      "components": [
-        "./src/components"
-      ],
-      "assets": [
-        "./src/assets"
-      ],
-      "router": [
-        "./src/router"
-      ],
-      "styles": [
-        "./src/styles"
-      ],
-      "views": [
-        "./src/views"
-      ],
+      "components": ["./src/components"],
+      "assets": ["./src/assets"],
+      "router": ["./src/router"],
+      "styles": ["./src/styles"],
+      "views": ["./src/views"]
     }
   }
 }
